@@ -12,17 +12,16 @@
     <p>Enter information about yourself below.</p>
 
     <form class="form" id="info">
-      <label for="gender">Gender:</label>
+      <label for="gender">Your Gender:</label>
       <select id="gender" name="">
         <option value="female">Female</option>
         <option value="male">Male</option>
-        <option value="other">Other</option>
       </select>
 
-      <label for="age">Age:</label>
+      <label for="age">Your Age:</label>
       <input id="age" type="text">
 
-      <label for="shoe-size">Shoe-size:</label>
+      <label for="shoe-size">Your Shoe-size:</label>
       <select id="shoe-size" name="">
         <option value="small">Small</option>
         <option value="medium">Medium</option>
@@ -54,10 +53,17 @@
         <option value="restaurant">Fancy restaurant</option>
         <option value="buffet">All-you-can-eat buffet</option>
       </select>
+
+      <div>
+        <button class="btn btn-default" type="submit">Start Stalking</button>
+      </div>
     </form>
 
+
     <div id="result">
-      
+      <p>
+        Your dream date is <span id="celeb"></span>!
+      </p>
     </div>
 
 

@@ -5,3 +5,7 @@ label {
 select, input {
   margin-bottom: 1.5em;
 }
+
+#result {
+  display: none;
+}
